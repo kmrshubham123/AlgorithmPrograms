@@ -9,6 +9,7 @@ namespace AlgorithmPrograms
             Console.WriteLine("****Welcome to the Algorithm Programs****");
             Console.WriteLine("============================================================");
             Console.WriteLine("1.The Array returned two string functions are equal or not");
+            Console.WriteLine("2.Bubble Sort");
             int choice = Convert.ToInt32(Console.ReadLine());
             switch (choice)
             {
@@ -24,6 +25,12 @@ namespace AlgorithmPrograms
                         Console.WriteLine("Both string are Not same");
                     }
                     break;
+                    case 2:
+                    {
+                        BubbleSorting sorting = new BubbleSorting();
+                        sorting.BubbleSort();
+                        break;
+                    }
             }
         }
     }
