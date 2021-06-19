@@ -20,9 +20,9 @@ namespace AlgorithmPrograms
             {
                 for (int j = i + 1; j < size; j++) //inner phase
                 {
-                    if (array[j] > array[i])
+                    if (array[j] > array[i])// sort 
                     {
-                        int temp = array[i];
+                        int temp = array[i]; //swap
                         array[i] = array[j];
                         array[j] = temp;
                     }
