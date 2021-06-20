@@ -11,7 +11,7 @@ namespace AlgorithmPrograms
             Console.WriteLine("Enter size of array:");
             int size = Convert.ToInt32(Console.ReadLine());
             int[] array = new int[size]; //create a array
-            Console.WriteLine("enter string elements of array:");
+            Console.WriteLine("Enter Integer elements of array:");
             for (int i = 0; i < size; i++)
             {
                 array[i] = Convert.ToInt32(Console.ReadLine());//array index by user input

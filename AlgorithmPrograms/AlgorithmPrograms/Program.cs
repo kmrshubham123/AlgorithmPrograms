@@ -11,6 +11,7 @@ namespace AlgorithmPrograms
             Console.WriteLine("1.The Array returned two string functions are equal or not");
             Console.WriteLine("2.Bubble Sort");
             Console.WriteLine("3.Insertion Sort");
+            Console.WriteLine("4.Merge Sort");
             int choice = Convert.ToInt32(Console.ReadLine());
             switch (choice)
             {
@@ -37,6 +38,13 @@ namespace AlgorithmPrograms
                         InsertionSort sort = new InsertionSort();
                         sort.Insertion_Sort();
                         break;
+                    }
+                case 4:
+                    {
+                        MergeSorting sorting = new MergeSorting();
+                        sorting.MergeSort();
+                        break;
+                       
                     }
             }
         }
