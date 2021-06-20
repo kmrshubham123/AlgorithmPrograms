@@ -12,6 +12,7 @@ namespace AlgorithmPrograms
             Console.WriteLine("2.Bubble Sort");
             Console.WriteLine("3.Insertion Sort");
             Console.WriteLine("4.Merge Sort");
+            Console.WriteLine("5.Anagram");
             int choice = Convert.ToInt32(Console.ReadLine());
             switch (choice)
             {
@@ -45,6 +46,12 @@ namespace AlgorithmPrograms
                         sorting.MergeSort();
                         break;
                        
+                    }
+                case 5:
+                    {
+                        Anagram anagram = new Anagram();
+                        anagram.Check();
+                        break;
                     }
             }
         }
